@@ -7,7 +7,7 @@ This project demonstrates parameter-efficient fine-tuning of Mistral-7B using Lo
 The goal is to fine-tune a large language model to classify movie reviews as positive or negative, using minimal computational resources through:
 
 - **4-bit quantization** (QLoRA) to reduce memory footprint
-- **LoRA adapters** to train only ~0.5% of the model parameters
+- **LoRA adapters** to train only ~1.1% of the model parameters
 - **Supervised Fine-Tuning (SFT)** with instruction-style prompts
 
 ## Requirements
